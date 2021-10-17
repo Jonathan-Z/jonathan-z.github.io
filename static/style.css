@@ -1,0 +1,130 @@
+html {
+    font-size: 100%;
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro','Noto Sans TC',sans-serif;
+    font-size:5px;
+    margin: 0px;
+    padding: 0px;
+}
+div#container {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight:600;
+    padding: 25px 1rem 5px 4.3rem;
+    color:#d63635;
+    font-size: 2.12rem;
+    margin: 0px;
+    position: relative;
+
+}
+
+img {
+    float: left;
+    width: 125px;
+    height: 125px;
+    padding: 25px 15px 25px 2rem;
+}
+
+h2 {
+    font-weight:300;
+    padding: 0px 1rem 25px 4.3rem;
+    color:#5a5a5a;
+    font-size:1.5rem;
+    margin: 0px;
+    position: relative;
+}
+div#header {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+}
+div#bottom {
+    height: 20px;        
+}
+.item-title {
+    padding: 1rem 10px 2px 4.3rem;
+    color:#1f1f1f;
+    font-size: 1.19rem;
+    margin: 0px;
+}
+.item-subtitle {
+    padding: 0px 10px 1rem 4.3rem;
+    color:#cb443a;
+    font-size: 1rem;
+    margin: 0px;
+}
+a.item {text-decoration: none;display: block;position: relative;}
+a.item:hover {background:#eee;}
+hr.gray {
+    border: none;
+    border-top: 1px solid #d6d6d6;
+    margin: 0px 70px;
+}
+hr.graystrong {
+    border: none;
+    border-top: 2px solid #d6d6d6;
+    margin: 20px 0px 10px 2rem;
+}
+.sectiontitle {
+    padding: 0px 10px 2px 2rem;
+    color:#767676;
+    font-size: 1rem;
+    margin: 0px;
+}
+.sectionsubtitle {
+    padding: 0px 10px 5px 2rem;
+    color:#888;
+    font-size: .8rem;
+    margin: 0px;
+    font-style: italic;
+}
+.light {
+    font-weight:100;    
+}
+#caption {
+    font-size:1rem;
+    color:white;
+    font-weight:400;   
+    text-align:center;
+    background: #ca443a;
+    padding: 7px 0px;
+}
+#caption a,#caption a:link,#caption a:hover,#caption a:visited{
+    text-decoration: none;
+    color:white;
+}
+hr.subline {
+        margin: 10px 0px 5px 4.2rem;
+}
+a.item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: none;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    top: 23%;
+    left: 2.3rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    html {font-size: 90%;}
+}
+@media only screen and (max-width: 500px) {
+    html {font-size: 82%;}
+    a.item:before {width: 20px; height: 20px;}
+}
+@media only screen and (max-width: 400px) {
+    html {font-size: 75%;}
+    a.item:before {top: 21%;left: 2.1rem;}
+}
